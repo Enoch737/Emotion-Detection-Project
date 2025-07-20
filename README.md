@@ -46,3 +46,11 @@ This project is licensed under the MIT License.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Enoch737/Emotion-Detection-Project/blob/main/Emotion_Detection_Cleaned.ipynb)
 
+# Emotion Detection from Facial Expressions
+
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Built with TensorFlow](https://img.shields.io/badge/Built%20with-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Enoch737/Emotion-Detection-Project/blob/main/Emotion_Detection_Cleaned.ipynb)
