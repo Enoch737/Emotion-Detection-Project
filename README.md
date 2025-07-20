@@ -1,40 +1,45 @@
-# Emotion Detection Using Machine Learning
+# Emotion Detection from Facial Expressions
 
-This repository contains a complete project on **Emotion Detection**, which uses machine learning and natural language processing (NLP) techniques to classify emotions from text data.
+This project implements a deep learning model to classify facial emotions using the FER-2013 dataset. It uses Convolutional Neural Networks (CNNs) to identify emotions from 48x48 grayscale images.
 
-## 💡 Project Overview
+## 📂 Dataset
 
-The goal of this project is to detect human emotions such as joy, anger, sadness, fear, etc., from textual input. It can be applied in real-world scenarios such as customer service automation, social media monitoring, and mental health analysis.
-
-## 📂 Contents
-
-- `Emotion_Detection_Complete_Project_Oroginal.ipynb`: Main Jupyter Notebook with full preprocessing, model training, and evaluation.
-- Dataset (included or linked if too large)
-- Model performance metrics and visualizations
-
-## 🔧 Features
-
-- Text preprocessing (cleaning, tokenization)
-- TF-IDF vectorization
-- Model training with:
-  - Logistic Regression
-  - Random Forest
-  - Support Vector Machine (SVM)
-- Evaluation using accuracy, precision, recall, and F1-score
-- Confusion matrix and classification report
-- Emotion prediction from custom text input
+- **Source**: [FER-2013 Dataset on Kaggle](https://www.kaggle.com/datasets/msambare/fer2013)
+- **Description**: Grayscale face images labeled with one of seven emotions:
+  - 0 = Angry
+  - 1 = Disgust
+  - 2 = Fear
+  - 3 = Happy
+  - 4 = Sad
+  - 5 = Surprise
+  - 6 = Neutral
 
 ## 🛠️ Tech Stack
 
 - Python
-- Scikit-learn
-- Pandas
-- NumPy
-- Matplotlib / Seaborn
-- Jupyter Notebook
+- TensorFlow / Keras
+- OpenCV
+- NumPy / Pandas
+- Seaborn / Matplotlib
 
 ## 🚀 How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/emotion-detection.git
+1. Download the dataset from Kaggle and upload it to your working directory.
+2. Run the notebook: `Emotion_Detection_Complete_Project_Oroginal.ipynb`
+3. The model will train on the FER-2013 data and evaluate accuracy.
+
+## 🔍 Sample Output
+
+- Model Accuracy: ~91%  
+- Input: Facial image (48x48 pixels)  
+- Output: Detected Emotion (e.g., "Happy")
+
+## 📌 Author
+
+**Enoch Narteh-Kofi**  
+Master’s Student in Financial Innovation & Technology  
+Smith School of Business, Queen’s University
+
+## 📃 License
+
+This project is licensed under the MIT License.
