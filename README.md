@@ -43,3 +43,6 @@ Smith School of Business, Queen’s University
 ## 📃 License
 
 This project is licensed under the MIT License.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Enoch737/Emotion-Detection-Project/blob/main/Emotion_Detection_Cleaned.ipynb)
+
