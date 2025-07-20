@@ -30,7 +30,7 @@ This project implements a deep learning model to classify facial emotions using 
 
 ## 🔍 Sample Output
 
-- Model Accuracy: ~91%  
+- Model Accuracy: 91%  
 - Input: Facial image (48x48 pixels)  
 - Output: Detected Emotion (e.g., "Happy")
 
